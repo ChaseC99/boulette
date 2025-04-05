@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature {
+    font-style: italic;
+    align-self: flex-end;
+    margin-right: 1em;
+}
+
+#meatball {
+    position: fixed; 
+    bottom: -120px; 
+    left: -120px; 
+    width: 100px; 
+    height: auto; 
+    transition: 2s ease-in-out;
+}
